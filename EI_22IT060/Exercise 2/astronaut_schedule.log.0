@@ -1,0 +1,50 @@
+Sept 29, 2025 12:29:27 PM com.astronaut.scheduler.app.AppLogger warning
+WARNING: Add task failed: Invalid time format. Use HH:mm (24-hour).
+Sept 29, 2025 12:29:55 PM com.astronaut.scheduler.app.AppLogger info
+INFO: Task added: Morning Exercise
+Sept 29, 2025 12:29:55 PM com.astronaut.scheduler.app.AppLogger info
+INFO: NOTIFY: Task added -> 07:00 - 08:00: Morning Exercise [HIGH]
+Sept 29, 2025 12:30:32 PM com.astronaut.scheduler.app.AppLogger info
+INFO: Task added: Meeting
+Sept 29, 2025 12:30:32 PM com.astronaut.scheduler.app.AppLogger info
+INFO: NOTIFY: Task added -> 09:00 - 10:00: Meeting [MEDIUM]
+Sept 29, 2025 12:30:56 PM com.astronaut.scheduler.app.AppLogger warning
+WARNING: ALERT: Conflict when adding 'Training Session'. Conflicts with 'Meeting'. Overlapping time period.
+Sept 29, 2025 12:30:56 PM com.astronaut.scheduler.app.AppLogger warning
+WARNING: Add task conflict: Task conflicts with existing task: Meeting
+Sept 29, 2025 12:32:00 PM com.astronaut.scheduler.app.AppLogger info
+INFO: Task marked completed: Morning Exercise
+Sept 29, 2025 12:32:00 PM com.astronaut.scheduler.app.AppLogger info
+INFO: NOTIFY: Task updated -> 07:00 - 08:00: Morning Exercise [HIGH] (Completed)
+Sept 29, 2025 12:32:35 PM com.astronaut.scheduler.app.AppLogger warning
+WARNING: Invalid time: Invalid time format. Use HH:mm (24-hour).
+Sept 29, 2025 12:32:49 PM com.astronaut.scheduler.app.AppLogger info
+INFO: Application shutting down by user.
+Oct 01, 2025 11:18:08 AM com.astronaut.scheduler.app.AppLogger warning
+WARNING: Add task failed: Invalid time format. Use HH:mm (24-hour).
+Oct 01, 2025 11:18:34 AM com.astronaut.scheduler.app.AppLogger warning
+WARNING: Add task failed: Invalid time format. Use HH:mm (24-hour).
+Oct 01, 2025 11:19:17 AM com.astronaut.scheduler.app.AppLogger info
+INFO: Task added: Yoga
+Oct 01, 2025 11:19:17 AM com.astronaut.scheduler.app.AppLogger info
+INFO: NOTIFY: Task added -> 06:30 - 07:30: Yoga [HIGH]
+Oct 01, 2025 11:20:21 AM com.astronaut.scheduler.app.AppLogger warning
+WARNING: ALERT: Conflict when adding 'Gym'. Conflicts with 'Yoga'. Overlapping time period.
+Oct 01, 2025 11:20:21 AM com.astronaut.scheduler.app.AppLogger warning
+WARNING: Add task conflict: Task conflicts with existing task: Yoga
+Oct 01, 2025 11:21:38 AM com.astronaut.scheduler.app.AppLogger info
+INFO: Task marked completed: Yoga
+Oct 01, 2025 11:21:38 AM com.astronaut.scheduler.app.AppLogger info
+INFO: NOTIFY: Task updated -> 06:30 - 07:30: Yoga [HIGH] (Completed)
+Oct 01, 2025 11:22:18 AM com.astronaut.scheduler.app.AppLogger warning
+WARNING: ALERT: Conflict when adding 'Gym'. Conflicts with 'Yoga'. Overlapping time period.
+Oct 01, 2025 11:22:18 AM com.astronaut.scheduler.app.AppLogger warning
+WARNING: Add task conflict: Task conflicts with existing task: Yoga
+Oct 01, 2025 11:22:38 AM com.astronaut.scheduler.app.AppLogger info
+INFO: Task added: Gym
+Oct 01, 2025 11:22:38 AM com.astronaut.scheduler.app.AppLogger info
+INFO: NOTIFY: Task added -> 05:30 - 06:30: Gym [HIGH]
+Oct 01, 2025 11:23:32 AM com.astronaut.scheduler.app.AppLogger info
+INFO: Task updated: Yoga
+Oct 01, 2025 11:23:32 AM com.astronaut.scheduler.app.AppLogger info
+INFO: NOTIFY: Task updated -> 07:00 - 08:00: Yoga [MEDIUM] (Completed)
